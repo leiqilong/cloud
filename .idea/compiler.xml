@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gateway" />
+        <module name="commonService" />
+        <module name="common" />
+        <module name="payment" />
+        <module name="common-interface" />
+        <module name="account" />
+        <module name="account-dubbo" />
+        <module name="payment-dubbo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account" target="1.8" />
+      <module name="account-dubbo" target="1.8" />
+      <module name="account_main" target="1.8" />
+      <module name="account_test" target="1.8" />
+      <module name="cloud" target="1.8" />
+      <module name="cloud-hlifek" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="common-interface" target="1.8" />
+      <module name="commonService" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="payment" target="1.8" />
+      <module name="payment-dubbo" target="1.8" />
+      <module name="service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account" options="-parameters" />
+      <module name="account-dubbo" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="common-interface" options="-parameters" />
+      <module name="commonService" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="payment" options="-parameters" />
+      <module name="payment-dubbo" options="-parameters" />
+    </option>
+  </component>
+</project>

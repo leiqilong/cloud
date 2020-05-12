@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+
+dubbo:
+  scan:
+    # 指定 Dubbo 服务实现类的扫描基准包
+    base-packages: com.didispace.alibaba.dubbo.server
+  protocols:
+    dubbo:
+      name: dubbo
+      port: -1
+  registry:
+    address: spring-cloud://localhost
+  application:
+    qos:
+      enable: false
+
+server:
+  port: 9090

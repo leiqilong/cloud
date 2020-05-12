@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/service/account/account.iml" filepath="$PROJECT_DIR$/service/account/account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/account-dubbo/account-dubbo.iml" filepath="$PROJECT_DIR$/service/account-dubbo/account-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/account/account_main.iml" filepath="$PROJECT_DIR$/.idea/modules/account/account_main.iml" group="cloud/account" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/account/account_test.iml" filepath="$PROJECT_DIR$/.idea/modules/account/account_test.iml" group="cloud/account" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud.iml" group="cloud" />
+      <module fileurl="file://$PROJECT_DIR$/service/common/common.iml" filepath="$PROJECT_DIR$/service/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/common-interface/common-interface.iml" filepath="$PROJECT_DIR$/service/common-interface/common-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/payment/payment.iml" filepath="$PROJECT_DIR$/service/payment/payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/payment-dubbo/payment-dubbo.iml" filepath="$PROJECT_DIR$/service/payment-dubbo/payment-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+    </modules>
+  </component>
+</project>
